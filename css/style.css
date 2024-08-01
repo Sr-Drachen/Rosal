@@ -1,34 +1,34 @@
 @font-face {
     font-family: 'Mont Black Italic';
-    src: url('/fonts/Mont-BlackItalic.otf') format('opentype');
+    src: url('/Rosal/fonts/Mont-BlackItalic.otf') format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Mont Bold';
-    src: url('/fonts/Mont-Bold.otf') format('opentype');
+    src: url('/Rosal/fonts/Mont-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont Book';
-    src: url('/fonts/Mont-Book.otf') format('opentype');
+    src: url('/Rosal/fonts/Mont-Book.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont ExtraLight';
-    src: url('/fonts/Mont-ExtraLight.otf') format('opentype');
+    src: url('/Rosal/fonts/Mont-ExtraLight.otf') format('opentype');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mont Regular';
-    src: url('/fonts/Mont-Regular.otf') format('opentype');
+    src: url('/Rosal/fonts/Mont-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
