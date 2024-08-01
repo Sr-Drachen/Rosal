@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Mont Black Italic';
+    src: url('/fonts/Mont-BlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont Book';
+    src: url('/fonts/Mont-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont ExtraLight';
+    src: url('/fonts/Mont-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
 body {
     height: 100vh;
     margin: 0;
