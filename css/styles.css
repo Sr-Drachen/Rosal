@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Mont Black Italic';
+    src: url('/fonts/Mont-BlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mont Bold';
+    src: url('/fonts/Mont-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont Book';
+    src: url('/fonts/Mont-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont ExtraLight';
+    src: url('/fonts/Mont-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont Regular';
+    src: url('/fonts/Mont-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1d4eab 50%, #1aa3d2 50%);
+    position: relative;
+}
+.container {
+    display: none;
+    text-align: center;
+}
+.counter {
+    color: aliceblue;
+    font-size: 7em;
+    margin-bottom: 20px;
+    margin: 20px;
+    font-family: 'Mont ExtraLight', sans-serif;
+    width: 150px;
+    height: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#contador1-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 69px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background: linear-gradient(145deg, #6ec1e4, #1e90ff);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -4px 6px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.2s;
+}
+
+#contador1-btn:hover {
+    transform: scale(1.05);
+}
+.boton-2{
+    font-family: 'Mont Black Italic', sans-serif;
+}
+#contador2-btn {
+    font-size: 69px;
+    font-weight: 900;
+    color: white;
+    background: linear-gradient(145deg, #4facfe, #00f2fe);
+    border: outset 5px #1e90ff;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -4px 6px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.2s;
+}
+
+#contador2-btn:hover {
+    transform: scale(1.05);
+}
+.show-btn, .reset-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d11e1e;
+    font-size: 16px;
+    font-family: 'Mont Book', sans-serif;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border: outset #d11e1e ;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.show-btn {
+    bottom: 20px;
+}
+.reset-btn {
+    top: 0px;
+}
+.orange-btn-container, .blue-btn-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    text-align: center;
+}
+.orange-btn-container {
+    left: 0;
+}
+.blue-btn-container {
+    right: 0;
+}
+.title-rosal {
+    font-family: 'Pacifico', cursive;
+    font-size: 69px;
+    font-weight: 900;
+    color: white;
+}
+.title-otro {
+    font-family: 'Mont Black Italic', sans-serif;
+    font-size: 69px;
+    font-weight: 900;
+    color: white;
+}
+.counter-container {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
