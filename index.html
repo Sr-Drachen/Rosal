@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosal</title>
-    <link rel="stylesheet" href="/Rosal/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="controls">
         <div class="orange-btn-container">
-            <button id="contador1-btn" onclick="aumentarContador1()">Rosal</button>
+
+            <button id="contador1-btn" onclick="aumentarContador1()"><img src="img/logo-rosal.jpg" alt="Rosal"></button>
             <div></div>
         </div>
         <div class="blue-btn-container">
-            <button class="boton-2" id="contador2-btn" onclick="aumentarContador2()">Otro</button>
+            <button class="boton-2" id="contador2-btn" onclick="aumentarContador2()"><img src="img/logo-arbora.jpg" alt="arbora"></button>
             <div></div>
         </div>
-        <button class="show-btn" id="show-btn" onclick="toggleContadores()">Mostrar resultados</button>
+        <button class="show-btn" id="show-btn" onclick="toggleContadores()"><img class="resultados" src="img/RESULTADOS.png" alt="resultados"></button>
     </div>
     
     <div id="counters" class="container" style="display: none;">
-        <div class="counter-container">
-            <div class="title-rosal">Rosal</div>
+        <div class="counter-container1">
+            <div class="title-rosal"><img class="logos" src="img/LOGO-ROSAL-PNG.png" alt="rosallogo"></div>
             <div class="counter" id="contador1">0</div>
         </div>
-        <div class="counter-container">
-            <div class="title-otro">Otro</div>
+        <div class="counter-container2">
+            <div class="title-otro"><img class="logos" src="img/OTRO-LOGO.png" alt="arboralogo"></div>
             <div class="counter" id="contador2">0</div>
         </div>
-        <button class="show-btn" id="toggle-btn" onclick="toggleContadores()">Ocultar</button>
-        <button class="reset-btn" id="reset-btn" onclick="reiniciarContadores()">Reiniciar conteo</button>
+        <button class="show-btn" id="toggle-btn" onclick="toggleContadores()"><img class="resultados" src="img/Regresar.png" alt="arbora"></button>
+        <button class="reset-btn" id="reset-btn" onclick="reiniciarContadores()"><img class="resultados" src="img/Reiniciar.png" alt="arbora"></button>
     </div>
 
     <script src="./js/script.js"></script>

@@ -26,14 +26,12 @@ function toggleContadores() {
     if (countersDiv.style.display === 'none') {
         countersDiv.style.display = 'block';
         controlsDiv.style.display = 'none';
-        showBtn.innerText = 'Regresar';
         resetBtn.style.display = 'block';
         document.getElementById('contador1').innerText = obtenerContador('contador1', 0);
         document.getElementById('contador2').innerText = obtenerContador('contador2', 0);
     } else {
         countersDiv.style.display = 'none';
         controlsDiv.style.display = 'block';
-        showBtn.innerText = 'Mostrar resultados';
         resetBtn.style.display = 'none';
     }
 }
